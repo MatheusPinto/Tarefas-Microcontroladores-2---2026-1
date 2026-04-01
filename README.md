@@ -30,12 +30,8 @@ O aluno deverá apresentar em dia especificado, o robô operando e explicar o c�
                  |— CMakeLists.txt
                  |— …
 
-<aside>
-💡
-
-**O projeto nesse fork não será avaliado após a data de apresentação. Dessa forma, a atualização do fork deverá ser feita até no máximo, no dia da apresentação!**
-
-</aside>
+> [!IMPORTANT]
+> **O projeto nesse fork não será avaliado após a data de apresentação. Dessa forma, a atualização do fork deverá ser feita até no máximo, no dia da apresentação!**
 
 Os critérios avaliados e seus pesos serão:
 
@@ -47,12 +43,10 @@ Os critérios avaliados e seus pesos serão:
 
 É importante reforçar algo que foi dito repetidas vezes em aula:
 
-<aside>
-💡
 
-**O robô operar parcialmente NÃO é garantia de aprovação.**
+> [!IMPORTANT]
+>**O robô operar parcialmente NÃO é garantia de aprovação.**
 
-</aside>
 
 Um robô pode funcionar com um código simples, sequencial ou improvisado, inclusive com soluções típicas de **Microcontroladores 1**. Porém, esse tipo de desenvolvimento NÃO tem valor avaliativo para a disciplina.
 
@@ -60,12 +54,9 @@ Dessa forma, **se o robô funcionou, mas o código não atende aos critérios t�
 
 Outro ponto importante a ser esclarecido:
 
-<aside>
-💡
+> [!IMPORTANT]
+>**Esforço, dedicação ou tempo investido NÃO são critérios DIRETOS de avaliação.**
 
-**Esforço, dedicação ou tempo investido NÃO são critérios DIRETOS de avaliação.**
-
-</aside>
 
 Esses aspectos são importantes do ponto de vista pessoal e formativo, mas a avaliação acadêmica se baseia nos requisitos técnicos atendidos, na correção conceitual e na qualidade da solução apresentada. Embora o esforço possa ser considerado no contexto da avaliação, esse esforço só tem valor acadêmico quando TODOS os aspectos abaixo são cumpridos:
 
