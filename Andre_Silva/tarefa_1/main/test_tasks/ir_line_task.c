@@ -78,8 +78,8 @@ portTASK_FUNCTION(IR_Line, arg)
 		
 		//O robô possui 5 sensores infravermelhos.
 		//O valor de leitura de gpioValue é de acordo com os bits dos leitores --> 11011 = 360704
+		//Os valores foram obtidos pelo terminal serial. Alguns estados não foram levados em consideração pois eles dificilmente acontecerão, como o estado 10000.Eles reagirão do acordo com o case default:
 		// 0 -> sensor em cima da linha preta (não reflexivo)
-		//Os valores foram obtidos pelo terminal serial. Alguns estados não foram levados em consideração pois eles dificilmente acontecerão, como o estado 10000.
 		// 1 -> Sensor em cima da parte branca(refletindo)
 		//wheel_SetVel(wL:roda_direita, wR:Roda Esquerda) --> A notação que aparece (wL: e wR:) está invertido
 		case 360704://11011
