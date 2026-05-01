@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/luar/ucontroladores2/Juca-main/firmware/go_and_avoid/build/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "/home/luar/ucontroladores2/Juca-main/firmware/go_and_avoid/build/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "/home/luar/ucontroladores2/Juca-main/firmware/go_and_avoid/build/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "/home/luar/ucontroladores2/Juca-main/firmware/go_and_avoid/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		},
+		{
+			"file" : "/home/luar/ucontroladores2/Juca-main/firmware/go_and_avoid/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "/home/luar/ucontroladores2/Juca-main/firmware/go_and_avoid/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "/home/luar/ucontroladores2/Juca-main/firmware/go_and_avoid/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "/home/luar/ucontroladores2/Juca-main/firmware/go_and_avoid/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "/home/luar/ucontroladores2/Juca-main/firmware/go_and_avoid/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "/home/luar/ucontroladores2/Juca-main/firmware/go_and_avoid/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}

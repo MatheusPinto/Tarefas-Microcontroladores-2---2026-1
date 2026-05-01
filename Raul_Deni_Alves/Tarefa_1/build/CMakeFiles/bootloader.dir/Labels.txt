@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/luar/ucontroladores2/Juca-main/firmware/go_and_avoid/build/CMakeFiles/bootloader
+/home/luar/ucontroladores2/Juca-main/firmware/go_and_avoid/build/CMakeFiles/bootloader.rule
+/home/luar/ucontroladores2/Juca-main/firmware/go_and_avoid/build/CMakeFiles/bootloader-complete.rule
+/home/luar/ucontroladores2/Juca-main/firmware/go_and_avoid/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/luar/ucontroladores2/Juca-main/firmware/go_and_avoid/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/luar/ucontroladores2/Juca-main/firmware/go_and_avoid/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/luar/ucontroladores2/Juca-main/firmware/go_and_avoid/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/luar/ucontroladores2/Juca-main/firmware/go_and_avoid/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/luar/ucontroladores2/Juca-main/firmware/go_and_avoid/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/luar/ucontroladores2/Juca-main/firmware/go_and_avoid/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

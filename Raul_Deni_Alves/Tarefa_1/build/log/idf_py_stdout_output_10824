@@ -1,0 +1,8 @@
+Command: ninja all
+[1/4] cd /home/luar/ucontroladores2/Juca-main/firmware/go_and_avoid/build/esp-idf/esptool_py && /home/luar/.espressif/python_env/idf5.5_py3.10_env/bin/python /home/luar/esp/v5.5.3/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/luar/ucontroladores2/Juca-main/firmware/go_and_avoid/build/partition_table/partition-table.bin /home/luar/ucontroladores2/Juca-main/firmware/go_and_avoid/build/go_and_avoid.bin
+go_and_avoid.bin binary size 0x3ec50 bytes. Smallest app partition is 0x100000 bytes. 0xc13b0 bytes (75%) free.
+[2/4] Performing build step for 'bootloader'
+[1/1] cd /home/luar/ucontroladores2/Juca-main/firmware/go_and_avoid/build/bootloader/esp-idf/esptool_py && /home/luar/.espressif/python_env/idf5.5_py3.10_env/bin/python /home/luar/esp/v5.5.3/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /home/luar/ucontroladores2/Juca-main/firmware/go_and_avoid/build/bootloader/bootloader.bin
+Bootloader binary size 0x5160 bytes. 0x2ea0 bytes (36%) free.
+[3/4] No install step for 'bootloader'
+[4/4] Completed 'bootloader'
