@@ -1,41 +1,35 @@
-[![en](https://img.shields.io/badge/lang-en-red.svg)](/README.md)
-[![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](/README.pt-br.md)
+| Supported Targets | ESP32 | ESP32-C2 | ESP32-C3 | ESP32-C5 | ESP32-C6 | ESP32-H2 | ESP32-P4 | ESP32-S2 | ESP32-S3 |
+| ----------------- | ----- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
 
-# Juca
+# _Sample project_
 
-Juca is an embedded mobile robotics board designed specifically for education. Juca combines affordability, expandability, and robust functionality, making it suitable for classroom and competition environments. Key features include modular hardware akin to Arduino shields, support for differential drive robots, and seamless integration with educational programming platforms.
+(See the README.md file in the upper level 'examples' directory for more information about examples.)
 
-This repository contains all the resources related to the development of the rover, 
-including **firmware**, **software**, and **hardware** (electronics and mechanics). 
+This is the simplest buildable example. The example is used by command `idf.py create-project`
+that copies the project to user specified path and set it's name. For more information follow the [docs page](https://docs.espressif.com/projects/esp-idf/en/latest/api-guides/build-system.html#start-a-new-project)
 
-## 📂 Repository Structure
 
--   [docs/](docs/) - Project documentation
-    
--   [firmware/](firmware/) - Microcontroller source code
-    
--   [software/](software/) - PC applications, scripts, and simulations
-    
--   [hardware/](hardware/) - Hardware design files
-    
-    -   [electronics/](hardware/electronics/) - Electronic design files
-        
-        -   [kicad/](hardware/electronics/kicad/) - Schematics and PCB layouts (KiCad project files)
-            
-        -   [bom/](hardware/electronics/bom/) - Bill of Materials
-            
-    -   [mechanics/](hardware/mechanics/) - Mechanical models (CAD, STL, STEP, drawings)
-        
--   [tests/](tests/) - Integration tests (firmware + hardware + software)
-    
--   [tools/](tools/) - Utility scripts and helper tools
-    
--   [LICENSE](LICENSE) - License file
-    
--   [README.md](README.md) - This file
 
-## 📌 Reference
+## How to use example
+We encourage the users to use the example as a template for the new projects.
+A recommended way is to follow the instructions on a [docs page](https://docs.espressif.com/projects/esp-idf/en/latest/api-guides/build-system.html#start-a-new-project).
 
-For information on the motivation, design objectives, and development criteria of the robot,  
-please refer to the article *“Juca: an embedded mobile robotics board for education”*,  
-published in the *16th Workshop on Robotics in Education (WRE 2025)*.
+## Example folder contents
+
+The project **sample_project** contains one source file in C language [main.c](main/main.c). The file is located in folder [main](main).
+
+ESP-IDF projects are built using CMake. The project build configuration is contained in `CMakeLists.txt`
+files that provide set of directives and instructions describing the project's source files and targets
+(executable, library, or both). 
+
+Below is short explanation of remaining files in the project folder.
+
+```
+├── CMakeLists.txt
+├── main
+│   ├── CMakeLists.txt
+│   └── main.c
+└── README.md                  This is the file you are currently reading
+```
+Additionally, the sample project contains Makefile and component.mk files, used for the legacy Make based build system. 
+They are not used or needed when building with CMake and idf.py.

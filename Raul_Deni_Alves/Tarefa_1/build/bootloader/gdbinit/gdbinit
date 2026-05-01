@@ -1,0 +1,2 @@
+source /home/luar/ucontroladores2/Juca-main/firmware/go_and_avoid/build/bootloader/gdbinit/symbols
+source /home/luar/ucontroladores2/Juca-main/firmware/go_and_avoid/build/bootloader/gdbinit/connect
