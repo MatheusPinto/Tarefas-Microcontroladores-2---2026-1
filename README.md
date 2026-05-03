@@ -1,17 +1,23 @@
 ## *Tarefa_1*
 ---
--Foram adicionados duas funções em wheel.c: void wheel_GoRight( void ) e void wheel_GoLeft( void ). O objetvos destas funções é possibilitar que o robô gire as rodas em sentidos opostos para que o mesmo faça curvas mais suaves e não saia do trilho em curvas fechadas.
--Em threeeyes_task.c contem a lógica para parar o robô quando os sensores ultra-sônicos detectam um objeto.  Uma condição if determina a distância que o robô para, suspendendo a ir_line_task.c que move o robô.
--A ir_line_task.c contém a lógica que move o robô e o mantém na trilha. O robô possui 5 sensores infravermelhos e a leitura dos dos sensores retorna um valor em gpioValue. O valor de leitura de gpioValue é de acordo com os bits dos leitores. Por exemplo, o estado 11011 retorna o valor 360704. Os valores podem ser obtidos pelo terminal serial. Alguns estados não foram levados em consideração pois eles dificilmente acontecerão, como o estado 10000. De acordo com o valor de gpioValue, o robô reage de acordo com um switch-case. Por exemplo, no estado 10111 significa que o robô está deslocado à direita(linha da trilha mais à esquerda), estão o robô deve compensar movendo mais a roda direita para voltar ao curso.
+-Foram adicionados duas funções em wheel.c: void wheel_GoRight( void ) e void wheel_GoLeft( void ). O objetvos destas funções é possibilitar que o robô gire as rodas em sentidos opostos para que o mesmo faça curvas mais suaves e não saia do trilho em curvas fechadas.  
+
+-Em threeeyes_task.c contem a lógica para parar o robô quando os sensores ultra-sônicos detectam um objeto.  Uma condição if determina a distância que o robô para, suspendendo a ir_line_task.c que move o robô.  
+
+-A ir_line_task.c contém a lógica que move o robô e o mantém na trilha. O robô possui 5 sensores infravermelhos e a leitura dos dos sensores retorna um valor em gpioValue. O valor de leitura de gpioValue é de acordo com os bits dos leitores. Por exemplo, o estado 11011 retorna o valor 360704. Os valores podem ser obtidos pelo terminal serial. Alguns estados não foram levados em consideração pois eles dificilmente acontecerão, como o estado 10000. De acordo com o valor de gpioValue, o robô reage de acordo com um switch-case. Por exemplo, no estado 10111 significa que o robô está deslocado à direita(linha da trilha mais à esquerda), estão o robô deve compensar movendo mais a roda direita para voltar ao curso. 
+
 
 ---
 
 Resumo:
 ---
 
-  -wheel.c--> adicionado as funções para girar as rodas em sentidos opostos.
-  -threeeyes_task.c --> Lógica para parar o robô com um if.
-  -ir_line_task.c--> Lógica para o robô seguir a linha com um switch-case.
+  -wheel.c--> adicionado as funções para girar as rodas em sentidos opostos. 
+  
+  -threeeyes_task.c --> Lógica para parar o robô com um if. 
+  
+  -ir_line_task.c--> Lógica para o robô seguir a linha com um switch-case.  
+  
 
 ---
 
